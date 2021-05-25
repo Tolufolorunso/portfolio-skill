@@ -36,6 +36,7 @@
     position: sticky;
     top: 0;
     z-index: 5;
+    color: #0d47a1;
 }
 
 @media (max-width: 670px) {
