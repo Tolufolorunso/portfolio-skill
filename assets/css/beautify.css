@@ -401,16 +401,17 @@ h2 {
 .css,
 .js {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .skill-icon-container {
     font-size: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-right: 20px;
 }
 
 .skills-description {
     color: rgb(red, green, blue);
+    font-size: 17px;
 }
