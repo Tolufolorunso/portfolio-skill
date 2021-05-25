@@ -119,6 +119,23 @@ h2 {
     z-index: 5;
 }
 
+.nav-wrapper.open {
+    display: block;
+}
+
+.hambuger {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 5;
+    display: none;
+    cursor: pointer;
+}
+
+.hambuger .fa-bars {
+    font-size: 2rem;
+}
+
 .page-heading {
     line-height: 1.6;
     font-size: 4vw;
@@ -137,9 +154,12 @@ h2 {
     .header__my-intro h1 {
         font-size: 1.5rem;
     }
-    /* .nav-wrapper {
+    .nav-wrapper {
         display: none;
-    } */
+    }
+    .hambuger {
+        display: block;
+    }
 }
 
 
