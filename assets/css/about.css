@@ -1,0 +1,48 @@
+/* Customs Style for About me section
+============================= */
+
+.about-me {
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    /* background-color: #1e88e5; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%); */
+    color: #000;
+}
+
+.about-me__row {
+    display: flex;
+}
+
+.about-me__content {
+    margin: 0 auto;
+}
+
+
+/* .about-me__img--container {
+} */
+
+.about-me__img {
+    width: 100%;
+}
+
+.about-me__content {
+    margin-left: 5%;
+}
+
+.about-me__h2 {
+    margin-bottom: 2.4rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+@media (max-width: 670px) {
+    .about-me__row {
+        flex-direction: column;
+    }
+    .about-me__content {
+        margin-left: 0;
+    }
+}

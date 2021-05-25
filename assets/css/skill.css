@@ -1,0 +1,40 @@
+.skill {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.skill__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill__h2 {
+    margin-bottom: 2.4rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.html,
+.css,
+.js {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.skill-icon-container {
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    margin-right: 20px;
+}
+
+.skills-description {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-description progress {
+    margin-left: 30px;
+}
