@@ -125,7 +125,7 @@ h2 {
 
 .hambuger {
     position: fixed;
-    top: 10%;
+    top: 7%;
     left: 0;
     z-index: 5;
     display: none;
